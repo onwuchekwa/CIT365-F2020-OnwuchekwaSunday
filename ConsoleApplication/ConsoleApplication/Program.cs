@@ -14,7 +14,7 @@ namespace ConsoleApplication
 
 
             // Store two variables: Your name and Your location(state or country)
-            String name, location;
+            string name, location;
 
             //Store Christmas date
             DateTime christmasDate = new DateTime(2020, 12, 25);
