@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // Create a new Visual C# Console App using .NET Framework project and name it "ConsoleApplication."
 namespace ConsoleApplication
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("********************************************************************\n" + 
                 "This part of the program displays the developer's name and location.\n" +
@@ -96,6 +92,7 @@ namespace ConsoleApplication
             Console.WriteLine($"The area of the glass is  {glassArea} square metres");
 
             // Do not automatically terminate the console
+            Console.WriteLine("\nPress any key to close the console application");
             Console.ReadKey();
         }
     }
