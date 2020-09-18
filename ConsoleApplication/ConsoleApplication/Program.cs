@@ -89,7 +89,7 @@ namespace ConsoleApplication
 
             // Output the length pf wood and area of glass required
             Console.WriteLine($"\nThe length of the wood is  {woodLength} feet");
-            Console.WriteLine($"The area of the glass is  {glassArea} square metres");
+            Console.WriteLine($"The area of the glass is {glassArea} square metres");
 
             // Do not automatically terminate the console
             Console.WriteLine("\nPress any key to close the console application");
