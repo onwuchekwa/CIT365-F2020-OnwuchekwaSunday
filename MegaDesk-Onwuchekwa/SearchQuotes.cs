@@ -16,5 +16,13 @@ namespace MegaDesk_Onwuchekwa
         {
             InitializeComponent();
         }
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Close the form
+            MainMenu mainMenu = (MainMenu)Tag;
+            mainMenu.Show();
+            Close();
+        }
     }
 }
