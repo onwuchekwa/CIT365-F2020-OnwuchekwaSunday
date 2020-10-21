@@ -1,0 +1,18 @@
+[
+  {
+    "customerName": "Samuel Otoo",
+    "transactionDate": "2020-10-13T06:11:10.780218+00:00",
+    "rashDays": 3,
+    "deskMaterial": "Oaks",
+    "deskDrawer": 2,
+    "deskWidth": 44,
+    "deskDepth": 25,
+    "deskArea": 1100,
+    "sizeOverage": 100,
+    "sizeCost": 100,
+    "drawerCost": 100,
+    "materialCost": 200,
+    "shippingCost": 70,
+    "totalCost": 670
+  }
+]
