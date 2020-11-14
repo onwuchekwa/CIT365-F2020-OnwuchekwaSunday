@@ -1,0 +1,13 @@
+﻿.bg-coquelicot {
+    background-color: #f34213;
+}
+
+.color-gray {
+    background-color: #bbb8b2;
+}
+
+.navbar-nav li a:hover {
+    background-color: #fff;
+    padding: 10px;
+    color: #f34213 !important;
+}
