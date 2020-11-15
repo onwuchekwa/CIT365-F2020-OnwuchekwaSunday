@@ -96,7 +96,7 @@ namespace MvcMovie.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,TItle,ReleaseDate,Genre,Price,Rating,imagePath")] Movie movie)
+        public async Task<IActionResult> Create([Bind("Id,TItle,ReleaseDate,Genre,Price,Rating,ImagePath")] Movie movie)
         {
             if (ModelState.IsValid)
             {
@@ -150,7 +150,7 @@ namespace MvcMovie.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,TItle,ReleaseDate,Genre,Price,Rating,imagePath")] Movie movie)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,TItle,ReleaseDate,Genre,Price,Rating,ImagePath")] Movie movie)
         {
             if (id != movie.Id)
             {
@@ -161,6 +161,7 @@ namespace MvcMovie.Controllers
                 
                 try
                 {
+                   // _context.Entry(movie).Property(x => x.ImagePath).IsModified = false;
                     _context.Update(movie);
                     await _context.SaveChangesAsync();
                 }
