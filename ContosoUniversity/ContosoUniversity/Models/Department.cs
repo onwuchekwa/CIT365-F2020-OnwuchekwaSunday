@@ -21,6 +21,7 @@ namespace ContosoUniversity.Models
         [Display(Name = "Start Date")]
         public DateTime StartDate { get; set; }
 
+        [Display(Name = "Instructor ID")]
         public int? InstructorID { get; set; }
 
         [Display(Name = "Row Version")]
